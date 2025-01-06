@@ -3,19 +3,30 @@ Naf (Nafiyu Murtaza)
 # Statement
 The indie turn-based game [Buckshot Roulette](https://store.steampowered.com/app/2835570/Buckshot_Roulette/) by Mike Klubnika. This version will be extremely simplified for the purposes of this project, only featuring the shotgun. However if time persists more will be added, such as items, QoL features (names), etc. If needed the premise of this project may be rebranded in the case that it is considered inappropriate for school. This project is effectively a rock-paper-scissors project, except the game itself is different, and requires more information to be stored.
 # UI
-Text will feature the current state of the round, and show statistics such as both players' HP and what items they have (if applicable).\n
-Users will type from a list of commands the game shows (i.e SHOOT | ITEM | INFO). Some commands feature multiple arguments (ITEM COLA).\n
-Actions are shown in the form of text appearing on both clients (i.e Player1 holds the gun, and points it at you... | You hold the gun, pointing it towards Player2...).
+Text will feature the current state of the round, and show statistics such as both players' HP and what items they have (if applicable).  
+
+Users will type from a list of commands the game shows (i.e SHOOT | ITEM | INFO). Some commands feature multiple arguments (ITEM COLA).  
+
+Actions are shown in the form of text appearing on both clients (i.e Player1 holds the gun, and points it at you... | You hold the gun, pointing it towards Player2...).  
+
 # Technical Design
-Allocating Memory will be used for holding the shotgun shell order (in the form of an array), as well as structs that define current round behavior (checks such as is the other player cuffed? is the shotgun sawed off? etc.) if applicable.\n
-Semaphores will be used for creating a loading environment for the first player that runs the program, waiting for a second player to run. This may not be applicable should I attempt a two-pipe connection as you suggested.\n
-Pipes will be used to handle transferring information between clients.\n
-Shared Memory may be used for keeping information in a place that is not a server.\n
-Signals will be used to disconnect and show applicable player(s) messages should the other client disconnect (i.e Player2 quit...).
+Allocating Memory will be used for holding the shotgun shell order (in the form of an array), as well as structs that define current round behavior (checks such as is the other player cuffed? is the shotgun sawed off? etc.) if applicable.  
+
+Semaphores will be used for creating a loading environment for the first player that runs the program, waiting for a second player to run. This may not be applicable should I attempt a two-pipe connection as you suggested.  
+
+Pipes will be used to handle transferring information between clients.  
+
+Shared Memory may be used for keeping information in a place that is not a server.  
+
+Signals will be used to disconnect and show applicable player(s) messages should the other client disconnect (i.e Player2 quit...).  
+
 # The Timeline
-January 9-12 - Get connections and transferring information done (The 'Systems' part, arguably in my opinion the hardest part).\n
-January 15 - Get the skeleton game running (The 'bare minimum' to submit, should be easy).\n
-January 21 - Add as much extra stuff as possible by this point (Items, Names, dialouge lines, wait times between dialouge lines... the lengthiest part).\n
+January 9-12 - Get connections and transferring information done (The 'Systems' part, arguably in my opinion the hardest part).  
+
+January 15 - Get the skeleton game running (The 'bare minimum' to submit, should be easy).  
+
+January 21 - Add as much extra stuff as possible by this point (Items, Names, dialouge lines, wait times between dialouge lines... the lengthiest part).  
+
 Note certain dates may be pushed, especially the Systems part as it is the most important aspect of the project.
 
 
