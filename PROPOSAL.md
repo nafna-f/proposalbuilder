@@ -21,11 +21,11 @@ Shared Memory may be used for keeping information in a place that is not a serve
 Signals will be used to disconnect and show applicable player(s) messages should the other client disconnect (i.e Player2 quit...).  
 
 # The Timeline
-January 9-12 - Get connections and transferring information done (The 'Systems' part, arguably in my opinion the hardest part).  
+`January 9-12` - Get connections and transferring information done (The 'Systems' part, arguably in my opinion the hardest part).  
 
-January 15 - Get the skeleton game running (The 'bare minimum' to submit, should be easy).  
+`January 15` - Get the skeleton game running (The 'bare minimum' to submit, should be easy).  
 
-January 21 - Add as much extra stuff as possible by this point (Items, Names, dialouge lines, wait times between dialouge lines... the lengthiest part).  
+`January 21` - Add as much extra stuff as possible by this point (Items, Names, dialouge lines, wait times between dialouge lines... the lengthiest part).  
 
 Note certain dates may be pushed, especially the Systems part as it is the most important aspect of the project.
 
