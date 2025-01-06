@@ -20,6 +20,10 @@ Shared Memory may be used for keeping information in a place that is not a serve
 
 Signals will be used to disconnect and show applicable player(s) messages should the other client disconnect (i.e Player2 quit...).  
 
+I am responsible for 100% of the project. I will begin with setting the connections and being able to share information and print statements on both clients and then begin making the actual game.  
+
+Structs will be used to hold round information. Annd that's about it for data structures, other than basic structures like ints, etc.
+
 # The Timeline
 `January 9-12` - Get connections and transferring information done (The 'Systems' part, arguably in my opinion the hardest part).  
 
